@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Register Your Profile for free",
+    "Iconss": "bi bi-card-list"
+  },
+  {
+    "id": 2,
+    "title": "Verify & Activate your profile",
+    "Iconss": "bi bi-person-check"
+  },
+  {
+    "id": 3,
+    "title": "Upgrade to Packages for better benefits",
+    "Iconss": "bi bi-journal-arrow-up"
+  },
+  {
+    "id": 4,
+    "title": "Connect with Preferred Matches",
+    "Iconss": "bi bi-people-fill"
+  },
+  {
+    "id": 5,
+    "title": "Find your Life Partner",
+    "Iconss": "bi bi-person-hearts"
+  }
+
+
+]

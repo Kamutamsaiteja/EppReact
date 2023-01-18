@@ -1,0 +1,213 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/* Heading css */
+
+.section-heading, .section-heading h4   {
+    text-align: center;
+    color: #920e3b;
+    font-weight: bold;
+    margin: 0;
+}
+
+.section-heading img {
+    width: 200px;
+    height: auto;
+    margin: auto;
+}
+
+/* FeaturedProfiles */
+.FeaturedProf{
+text-align: center;
+}
+.FeaturedProf .FeatImg {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #900c3e;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.FeaturedProf .fuproDetails{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* cards css */
+    /* spl features css */
+
+    .splcard {
+        background-color: transparent;
+        width: 300px;
+        height: 200px;
+        perspective: 1000px;
+        cursor: pointer;
+        margin: 20px;
+      }
+      
+      .splcard-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+        box-shadow: 1px 2px 5px -2px;
+      
+      }
+      
+      .splcard:hover .splcard-inner {
+        transform: rotateY(180deg);
+      }
+      
+      .splcard-front, .splcard-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        background-color: #fdf5e6;
+      
+      }
+      
+      .splcard-front {
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .splcard-front .myicons1 {
+          color: #910b3d;
+          border: 1px solid #910b3d;
+          border-radius: 50%;
+          padding: 20px 21px 13px 21px;
+          font-size: 30px;
+          margin: 5%;
+          transition: .2s ease-in-out;
+      }
+      .splcard-back{
+        transform: rotateY(180deg);
+      }
+      .splcard-back .spltext1 {
+        color: #910b3d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        padding: 10px;
+      }
+      .spl-pt {
+      padding-left:15px ;
+      margin: 0;
+      }
+      .spl-pt li{
+          text-align: left;
+          list-style-type: decimal;
+          padding: 5px 5px;
+      }
+      .spltext1 i {
+          font-size: 50px;
+          color: #910b3d;
+          border: 1px solid #910b3d;
+          width: 30px;
+          height: 30px;
+          padding: 10px 17px;
+          border-radius: 50%;
+          background-color: white;
+      }
+      .spltext1 img {
+        width: 150px;
+        height: 93px;
+      }
+
+/* begin yor journey css starts */
+.processBorder {
+  position: relative;
+  display: inline-flex;
+  list-style: none;
+}
+.processBorder::before {
+  content: '';
+  width: 84%;
+  height: 110%;
+  border: 2px solid #910b3d;
+  position: absolute;
+  top: -5%;
+  left: 10%;
+  border-radius: 10px;
+}
+.processBorder li {
+  background: #ffc71d;
+  color: #333;
+  font-weight: bold;
+  font-family: 'Rajdhani', sans-serif;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  height: 79px;
+  position: relative;
+  margin: 20px;
+  padding: 10px 20px;
+}
+.processBorder li i {
+  color: #910b3d;
+  font-size: 38px;
+  position: absolute;
+  left: 73%;
+  top: 9px;
+}
+.processBorder li h6{
+  color: #910b3d;
+  margin-left: -2%;
+  margin-top: 4%;
+  width: 70%;
+  font-weight: 600;
+  font-size: 15px;
+}
+.processBorder li:before {
+  content: "";
+  position: absolute;
+  right: -47px;
+  top: 2px;
+  bottom: 0;
+  width: 47px;
+  height: 23px;
+  border-left: 38px solid #ffc71d;
+  border-top: 38px solid transparent;
+  border-bottom: 38px solid transparent;
+}
+@media only screen and (max-width: 1199px){
+.processBorder {
+    position: relative;
+    display: block;
+}
+}
+/* packs in home css starts */
+.Homepackages{
+  text-align: center;
+  padding: 15px;
+  border-radius: 20px;
+  height: auto;
+  /* background-color: red; */
+  width: 100%;
+}
+.Homepackages h3 {
+  color: #FFF;
+  font-weight: 600;
+  font-size: 21px;
+  padding-bottom: 15px;
+}
+.Homepackages:hover img{
+    transition: transform 1s, filter 2s ease-in-out;
+    transform: scale(1.3);
+}
+.Homepackages a {
+  text-decoration: none;
+}

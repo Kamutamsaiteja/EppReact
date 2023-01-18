@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "48+ years of Eenadu Brand Legacy and Trust",
+    "listss": [
+      "Largest circulated Telugu Daily & pioneer in print journalism",
+      "21 branches across Telugu states and different parts of India",
+      "Eenadu synonymous with Telugu language, culture & voice of people"
+    ],
+    "Iconss": "bi bi-person-bounding-box"
+  },
+  {
+    "id": 2,
+    "title": "Exclusive Parichaya Vedika Events",
+    "listss": [
+      "An Opportunity to meet many potentail matches from different places in one platform",
+      "Live Interaction events for prospective brides/bride grooms along with their family members"
+    ],
+    "Iconss": "bi bi-person-bounding-box"
+  },
+  {
+    "id": 3,
+    "title": "High Verified Profiles with Highest Success Rate of matchmaking",
+    "listss": [
+      "100% Mobile verified profiles",
+      "Our team validates all mandatory fields and assist the users in finding better matches",
+      "Face to face interactive sessions through Parichaya vedika events"
+    ],
+    "Iconss": "bi bi-person-check"
+  },
+  {
+    "id": 4,
+    "title": "Affordable Packages with Dedicated Personalized  Services",
+    "listss": [
+      "Offering best affordable packages with genuine matches & profile writing service along with some other better benefits",
+      "For Assisted services, a Dedicated RM shortlists, Contact & Facilitates direct/Virtual meetings with selective matches"
+    ],
+    "Iconss": "bi bi-cash-coin"
+  },
+  {
+    "id": 5,
+    "title": "Secure & Confidential",
+    "listss": [
+      "We offer various privacy options and maintains confidentiality of every Individual users data from unauthorised disclosures"
+    ],
+    "Iconss": "bi bi-patch-check-fill"
+  },
+  {
+    "id": 6,
+    "title": "Offline Centers Support",
+    "listss": [
+      "Customers may walk into any of our local Pellipandiri offices or nearest local Eenadu offices for any kind of assistance related to matchmaking"
+    ],
+    "Iconss": "bi bi-telephone-outbound-fill"
+  }
+]
