@@ -3,13 +3,27 @@ import "./navbar1.css";
 import Ilogo from "./Images/logo.png";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
+import { useRef } from "react";
 
 
 const Navbar1 = () => {
-  const [topen, setTopen] = useState(false);
+const [topen, setTopen] = useState(false);
+const email=useRef();
+const password=useRef();
+
+  // togle btn event
   const handleClick = () => {
     setTopen(!topen);
   };
+
+  // login form event
+  const Elogin=()=>{
+      if(email.current.value=="abc@gmail.com" && password.current.value=="123456"){
+        localStorage.setItem("emailData","abc@gmail.com")
+        localStorage.setItem("password","123456")
+      }
+  }
+
   return (
     <>
     <div className="sticky-top">
@@ -157,15 +171,16 @@ const Navbar1 = () => {
               <img src={Ilogo} alt="Ilogo" className="Logo"  />
               <h3>LOGIN</h3>
             </div>
-            <div className="col-sm-12">
+           <form onSubmit={Elogin}>
+           <div className="col-sm-12">
               <div className="form-floating mb-3">
-                <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com" />
+                <input type="email" className="form-control" id="floatingInput" ref={email} placeholder="enter email address"   />
                 <label >Profile Id / Email address / Mobile No</label>
               </div>
             </div>
             <div className="col-sm-12">
               <div className="form-floating mb-3">
-                <input type="password" className="form-control" id="floatingInput" placeholder="name@example.com" />
+                <input type="password" className="form-control"   id="floatingInput" ref={password} placeholder="enter password" />
                 <label >Enter Password</label>
               </div>
             </div>
@@ -183,12 +198,14 @@ const Navbar1 = () => {
               </div>
             </div>
             <div className="col-sm-12">
-              <button type="submit" className="SignIn btn" to="/MyHome">Sign In</button>
+              <button type="submit" className="SignIn btn" >Sign In</button>
             </div>
             <h4 className="text-center py-2">Or</h4>
             <div className="col-sm-12">
               <Link className="RequestOTP btn">Request OTP</Link>
             </div>
+           </form>
+           
               
             </div>
           </div>
